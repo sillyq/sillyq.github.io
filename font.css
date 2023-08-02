@@ -1,0 +1,49 @@
+/* Thunder Font */
+@font-face {
+    font-family: thunder;
+    src: url(fonts/Thunder-BoldLC.ttf);
+}
+@font-face {
+    font-family: thunderI;
+    src: url(fonts/Thunder-BoldLCItalic.ttf);
+}
+
+/* Inter Font */
+@font-face {
+    font-family: interB;
+    src: url(fonts/Inter-Black.ttf);
+}
+@font-face {
+    font-family: interSB;
+    src: url(fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: interT;
+    src: url(fonts/Inter-Thin.ttf);
+}
+@font-face {
+    font-family: interM;
+    src: url(fonts/Inter-Medium.ttf);
+}
+
+/* Lineseed Font */
+@font-face {
+    font-family: lsBD;
+    src: url(fonts/LINESeedSansTH_Bd.ttf);
+}
+@font-face {
+    font-family: lsHE;
+    src: url(fonts/LINESeedSansTH_He.ttf);
+}
+@font-face {
+    font-family: lsRG;
+    src: url(fonts/LINESeedSansTH_Rg.ttf);
+}
+@font-face {
+    font-family: lsTH;
+    src: url(fonts/LINESeedSansTH_Th.ttf);
+}
+@font-face {
+    font-family: lsXBD;
+    src: url(fonts/LINESeedSansTH_XBd.ttf);
+}

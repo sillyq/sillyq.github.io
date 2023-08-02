@@ -1,0 +1,185 @@
+/* จัดการฟอนต์ */
+:root {
+    --enLogo: thunder;
+    --en: interSB;
+    --enB: interB;
+    --lsTH: lsTH;
+    --lsBD: lsBD;
+    --lsXBD: lsXBD;
+    --lsRG: lsRG;
+    --lsHE: lsHE;
+}
+
+/* หน้าเพจโดยรวม */
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+/* ================================================================= */
+
+/* หน้าเว็บเปลี่ยนตามขนาด */
+@media (max-width: 991.98px) {
+    body {
+        height: 100vh;
+        background-position: center;
+    }
+    .navbar-collapse {
+        background-color: rgb(0, 0, 0);
+      }
+    #ab-itemleft {
+        display: block;
+        width: 100%;
+    }
+    #ab-itemright {
+        display: block;
+        width: 100%;
+    }
+    #FooterText {
+        display: hidden !important;
+    }
+    #TopContent h1 {
+        font-size: 60px;
+    }
+    #TopContent p {
+        font-size: 20px;
+    }
+}
+
+/* ================================================================= */
+
+/* ตกแต่งปุ่มกลับด้านบน */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+#myBtn:hover {
+    background-color: black;
+    color: white !important;
+}
+
+/* ================================================================= */
+
+/* พื้นหลังโดยรวมของด้านบนเว็บ */
+#TopPAGE {
+    background-color: black !important;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ส่วนของ Navavigator */
+nav {
+    position: sticky !important;
+    top: 0;
+    z-index: 9000 !important;
+}
+nav .navbar-brand {
+    color: white !important;
+    font-family: var(--enLogo);
+    font-size: 40px;
+}
+.navbar-brand {
+    margin-left: 15px;
+}
+.navbar-brand .textbg {
+    background: linear-gradient(to left, transparent 50.3%, rgb(26, 163, 255) 0%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.2s ease-out;
+}
+.navbar-brand .textbg:hover {
+    background-position: 0 0;
+}
+.nav-link {
+    color: rgb(255, 255, 255, 0.8) !important;
+    font-family: var(--en);
+}
+.nav-link:hover {
+    color: rgb(255, 255, 255, 1) !important;
+}
+
+/* ส่วนข้อความต่างๆของด้านบน */
+#TopContent {
+    height: 80vh;
+}
+#quoteB {
+    font-family: var(--enB);
+    font-size: 100px;
+}
+#quoteMD {
+    font-family: var(--enB);
+    font-size: 70px;
+}
+#quoteS {
+    font-family: var(--lsRG);
+    font-size: 20px;
+}
+#TopContent h1 {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+}
+#TopContent p {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+}
+#TopMSG {
+    position: relative;
+    top: 200px;
+}
+
+/* ================================================================= */
+
+/* SERVICE */
+#sw {
+    height: auto;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+#sw-content {
+    background-color: rgb(255, 88, 88);
+}
+
+#ab-head {
+    font-family: var(--lsBD);
+}
+#ab-desc {
+    font-family: var(--lsRG);
+}
+
+#cardName {
+    font-family: var(--lsXBD);
+}
+#cardDesc {
+    font-family: var(--lsRG);
+}
+
+#sw a {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    min-height: 10rem !important;
+}
+
+/* CONTACT */
+#ct {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+#ct-content {
+    background-color: rgb(255, 88, 88);
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QW3RTY: พอร์ตโฟลิโอ</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- ฺปุ่มกดกลับไปด้านบน -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle"></i> TOP</button>
+
+  <!-- ================================================================== -->
+
+  <!-- ส่วนด้านบนของเว็บ (Navbar, Quote) -->
+  <section class="container-fluid" id="TopPAGE">
+    <div class="container"> 
+      <nav class="navbar navbar-expand-lg bg-transperent navbar-dark">
+
+        <a class="navbar-brand" href="#top"><span class="textbg">QW3RTY</span></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLINKS" aria-controls="navLINKS" aria-expanded="false" aria-label="Menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navLINKS">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#sw">Services</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link disabled" href="#ct">Contact (wip)</a>
+              </li>
+            </ul>
+
+        </div>
+      </nav>
+
+      <!-- ข้อความโควทของด้านบน -->
+      <div class="container" id="TopContent">
+        <div id="TopMSG">
+          <h1 class="text-white text-center" id="quoteB">NUTTAPONG</h1>
+          <h1 class="text-white text-center" id="quoteMD">NAKAWIROT</h1>
+          <p class="text-white text-center" id="quoteS">College Student - 19 Years</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================================== -->
+
+  <!-- คอนเทนต์เนื้อหาในเว็บ -->
+  <section id="sw">
+    <div class="container">
+      <div id="ab-content" data-aos="fade-up">
+
+        <div id="ab-topic" data-aos="fade-up" data-aos-delay="100">
+          <h1 class="fs-4 text-white pt-5 text-center" id="ab-head">เรามี<span class="text-primary">ผลงาน</span>อะไรบ้าง?</h1>
+          <p class="text-white text-center font" id="ab-desc">นี่คือผลงานเด่นส่วนนึงที่เรามี</p>
+        </div>
+
+        <div id="ab-inner" class="row pt-3 pb-5" data-aos-delay="200">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm" data-aos="fade-up">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/cards/sunny.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                <div class="card-body">
+                  <p class="card-text" id="cardName">เดี่ยวซันสั้น</p>
+                  <p class="card-text" id="cardDesc">รับชมคลิปเดี่ยวกับซัน กับตอน 'หนุ่มทรงSAD แห่งดินแดนDiscord' ที่ผมได้มีโอกาศไปมีส่วนร่วมในการตัดต่อคลิปนี้ ซึ่งมียอดรับชม 800K</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://linktw.in/uBq01o" target="_blank"><i class="bi bi-play-fill"></i> รับชม</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm" data-aos="fade-up">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/cards/short-film.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                <div class="card-body">
+                  <p class="card-text" id="cardName">หนังสั้น</p>
+                  <p class="card-text" id="cardDesc">รับชมหนังสั้นส่งอาจารย์ทั้งหมดสองพาร์ท และเบื้องหลังสนุกๆ ที่ผมตั้งใจคิดบท ถ่ายทำและตัดต่อด้วยตัวเองอย่างดีที่สุด ห้ามพลาดเด็ดขาด</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://linktw.in/QWrtOM" target="_blank"><i class="bi bi-play-fill"></i> รับชม</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm" data-aos="fade-up">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/cards/channel.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                <div class="card-body">
+                  <p class="card-text" id="cardName">ช่องยูทูป</p>
+                  <p class="card-text">ช่องยูทูปสายเกมและวาไรตี้ ที่ตารางเวลาการลงคลิปไม่เป็นเวลาสักครั้ง สามารถมากดติดตามได้ รับรองว่ามีคลิปตลกๆให้คุณได้ดูอย่างแน่นอน</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://linktw.in/Mw7Y9z" target="_blank"><i class="bi bi-search"></i> ไป</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="ct">
+    <div class="container">
+      <div id="ct-content">
+
+      </div>
+    </div>
+  </section> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
